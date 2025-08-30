@@ -36,3 +36,6 @@ sudo vi index.html`
 ## 5. Domain Mapping with 53
 ![](https://github.com/priyanshurajmay-cmyk/EC2-website-hosting-and-mapping-through-ssl-certification/blob/main/images%20ec2/Screenshot%202025-08-30%20164756.png)
 ## 6. Name Server
+![](https://github.com/priyanshurajmay-cmyk/EC2-website-hosting-and-mapping-through-ssl-certification/blob/main/images%20ec2/Screenshot%202025-08-30%20164833.png)
+## 7. Domain Name, Name server
+![]()
