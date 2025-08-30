@@ -26,7 +26,7 @@ Quick Deployment Steps
 Use a browser to open `http://instance public ip`
 it will show a confirmation page of it.
 
-Now in puTTY `cd /var/www/html
+Now in PuTTY `cd /var/www/html
 sudo rm index.html
 sudo vi index.html`
 1. Press I and insert HTML code.
@@ -40,4 +40,6 @@ sudo vi index.html`
 ## 7. Domain Name, Name server
 ![](https://github.com/priyanshurajmay-cmyk/EC2-website-hosting-and-mapping-through-ssl-certification/blob/main/images%20ec2/Screenshot%202025-08-30%20164904.png)
 ## 8. Website before SSL (Showing Not Secure)
-![]()
+![](https://github.com/priyanshurajmay-cmyk/EC2-website-hosting-and-mapping-through-ssl-certification/blob/main/images%20ec2/Screenshot%202025-08-30%20165003.png)
+# 9. SSL certification, alternate Gmail issue, and error
+"A user registered a domain with one account but used a different account's SSH key in PuTTY for SSL certificate generation, leading to an error. This requires redoing the entire process from the start, causing extra work. What are the recommended steps to prevent this mismatch and streamline the SSL setup process?"
