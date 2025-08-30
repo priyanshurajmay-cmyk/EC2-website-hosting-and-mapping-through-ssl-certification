@@ -12,3 +12,25 @@ Quick Deployment Steps
 8. Review & Launch: Confirm your settings, then click Launch.
 9. Select Key Pair: Choose an existing key pair or create a new one to securely connect to your instance.
 ![](https://github.com/priyanshurajmay-cmyk/EC2-website-hosting-and-mapping-through-ssl-certification/blob/main/images%20ec2/Screenshot%202025-08-30%20164504.png)
+
+## 2. Connect to EC2 (using PuTTY/SSH)
+1. Download the Putty.exe file and install.
+2. Write the public IP in the session.
+3. Go to connection -> ssh -> auth
+4. Browse the key pair.
+5. Now select Open.
+6. Use Ubuntu as a user name
+
+## 3. Install Apache
+`sudo apt install apache2`
+Use a browser to open `http://instance public ip`
+it will show a confirmation page of it.
+
+Now in puTTY `cd /var/www/html
+sudo rm index.html
+sudo vi index.html`
+1. Press I and insert HTML code.
+2. Write your code.
+3. After writing all code, Press Ctrl+C and then write ":wq" Press Enter.
+
+## 5. Domain Mapping with 53
