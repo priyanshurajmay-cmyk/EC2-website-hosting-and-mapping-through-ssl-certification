@@ -11,3 +11,4 @@ Quick Deployment Steps
 7. Configure Security Group: Set up firewall rules to allow traffic on specific ports like SSH (22) and HTTP (80).
 8. Review & Launch: Confirm your settings, then click Launch.
 9. Select Key Pair: Choose an existing key pair or create a new one to securely connect to your instance.
+
